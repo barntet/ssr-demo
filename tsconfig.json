@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es6", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs", /* Specify what module code is generated. */
+    "types": [
+      "node"
+    ],
+    "jsx": "react-jsx",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
