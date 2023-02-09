@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npx nodemon --watch src server_build/bundle.js",
     "build:server": "npx webpack build --config ./webpack.server.js --watch",
+    "build:client": "npx webpack build --config ./webpack.client.js --watch",
     "lint": "npx eslint src/**"
   },
   "author": "",
@@ -17,6 +18,7 @@
     "@types/express": "^4.17.17",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "@types/react-helmet": "^6.1.6",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "babel-loader": "^9.1.2",
@@ -32,6 +34,8 @@
   "dependencies": {
     "express": "^4.18.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.8.1"
   }
 }
