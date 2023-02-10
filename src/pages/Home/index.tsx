@@ -27,6 +27,7 @@ const Home = () => {
         <a href="http://127.0.0.1:3000/demo">链接跳转</a>
         <span
           onClick={(): void => {
+            console.log(1)
             navigate('/demo');
           }}
         >
